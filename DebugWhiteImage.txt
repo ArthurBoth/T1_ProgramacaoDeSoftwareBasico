@@ -1,0 +1,38 @@
+//TESTE DE PINTURA DE PIXEIS
+	//repinta a imagem de branco para verificar se a pintura ta certa numa próxima execução do programa
+		newImage->pix[(j*3) * newImage->width + (i*3)].r = 255;
+		newImage->pix[(j*3) * newImage->width + (i*3)].g = 255;
+		newImage->pix[(j*3) * newImage->width + (i*3)].b = 255;
+						
+		newImage->pix[(j*3) * newImage->width + (i*3)+1].r = 255;
+		newImage->pix[(j*3) * newImage->width + (i*3)+1].g = 255;
+		newImage->pix[(j*3) * newImage->width + (i*3)+1].b = 255;
+							
+		newImage->pix[(j*3) * newImage->width + (i*3)+2].r = 255;
+		newImage->pix[(j*3) * newImage->width + (i*3)+2].g = 255;
+		newImage->pix[(j*3) * newImage->width + (i*3)+2].b = 255;
+							
+		newImage->pix[(j*3+1) * newImage->width + (i*3)].r = 255;
+		newImage->pix[(j*3+1) * newImage->width + (i*3)].g = 255;
+		newImage->pix[(j*3+1) * newImage->width + (i*3)].b = 255;
+						
+		newImage->pix[(j*3+1) * newImage->width + (i*3)+1].r = 255;
+		newImage->pix[(j*3+1) * newImage->width + (i*3)+1].g = 255;
+		newImage->pix[(j*3+1) * newImage->width + (i*3)+1].b = 255;
+							
+		newImage->pix[(j*3+1) * newImage->width + (i*3)+2].r = 255;
+		newImage->pix[(j*3+1) * newImage->width + (i*3)+2].g = 255;
+		newImage->pix[(j*3+1) * newImage->width + (i*3)+2].b = 255;
+							
+		newImage->pix[(j*3+2) * newImage->width + (i*3)].r = 255;
+		newImage->pix[(j*3+2) * newImage->width + (i*3)].g = 255;
+		newImage->pix[(j*3+2) * newImage->width + (i*3)].b = 255;
+							
+		newImage->pix[(j*3+2) * newImage->width + (i*3)+1].r = 255;
+		newImage->pix[(j*3+2) * newImage->width + (i*3)+1].g = 255;
+		newImage->pix[(j*3+2) * newImage->width + (i*3)+1].b = 255;
+							
+		newImage->pix[(j*3+2) * newImage->width + (i*3)+2].r = 255;
+		newImage->pix[(j*3+2) * newImage->width + (i*3)+2].g = 255;
+		newImage->pix[(j*3+2) * newImage->width + (i*3)+2].b = 255;
+	
