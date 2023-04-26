@@ -1,0 +1,11 @@
+Compilar
+gcc -c zoom.c lib_ppm.c
+
+Linkar os módulos e bibliotecas
+gcc zoom.c lib_ppm.c -o zoom
+
+Executar o .exe
+zoom.exe
+
+Deletar (sem passar pela lixiera) tudo o que for: {[qualquer coisa].o},{[qualquer coisa]~},{zoom},{test.ppm},{zoom.exe}
+del *.o *~ zoom test.ppm zoom.exe

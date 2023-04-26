@@ -14,4 +14,4 @@ zoom.o: zoom.c
 	$(CC) $(CFLAGS) -c zoom.c
 
 clean:
-	del *.o *~ zoom lena_copy.ppm test.ppm zoom.exe
+	del *.o *~ zoom test.ppm zoom.exe
